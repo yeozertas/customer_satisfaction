@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4921026114930dab75f30cb39c1dd20fb3c695fe220398e97f8d8367e7ad92e0
-size 433
+from setuptools import setup
+
+setup(
+    name='customer_satisfaction',
+    version='0.1.0',
+    description='Customer Satisfaction Meter',
+    author='Yunus Emre Ozertas',
+    author_email='yunusemreozertas@yahoo.com.tr',
+    install_requires=[
+        'transformers==4.29.2',
+        'torch==2.0.1',
+        'numpy==1.24.3',
+        'pyyaml'
+    ],
+
+    package_data={'': ['*.txt', '*.json', '*.bin', '*.yaml']},
+)
