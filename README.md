@@ -1,26 +1,3 @@
-# Customer Satisfaction
-
-Extract whl with
-
-```bash
-python setup.py bdist_wheel
-```
-
-Install as package
-
-```bash
-python setup.py install
-```
-
-Example usage
-
-```python
-from customer_satisfaction import CustomerSatisfaction
-cs_m = CustomerSatisfaction()
-
-# Intent results
-print(cs_m.get_script_intents())
-
-# Sentiment results
-print(cs_m.get_script_sentiments())
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1f512f8a578bf0779f66b042ca1e476d261617649fcab02f7ca79af44ee9882
+size 363
